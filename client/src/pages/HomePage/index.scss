@@ -1,0 +1,20 @@
+#home-page {
+  .home-page {
+    .banner-h1 {
+      color: white;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30%;
+      font-size: 72px;
+    }
+    span {
+      background-color: yellow;
+    }
+  }
+  #banner {
+    background-image: url(https://preview.colorlib.com/theme/course/images/slider_background.jpg);
+    height: 110vh;
+  }
+}
+
