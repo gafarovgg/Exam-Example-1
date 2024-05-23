@@ -17,3 +17,11 @@ export async function getDataById(id) {
     console.log(error);
   }
 }
+export async function addPostData(payload) {
+  try {
+    const response = axios.post(BASE_URL, payload);
+    return response;
+  } catch (error) {
+    console.log(error);
+  }
+}
